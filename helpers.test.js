@@ -24,6 +24,6 @@ describe('#findMean',function(){
         expect(findMean([1,-1,4,6])).toEqual(2.5)
     })
     it("finds the mean of an empty array", function(){
-        expect(findMean([])).toEqual(2)
+        expect(findMean([])).toEqual(0)
     })
 })

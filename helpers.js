@@ -32,7 +32,7 @@ function findMode(arr){
             count = freq[key];
         }
     }
-    return (most);
+    return (+most);
 }
 function findMean(nums){
     if (nums.length === 0) return 0;
@@ -46,7 +46,7 @@ function findMedian(nums){
     let middle = Math.floor(nums.length/2);
     let median;
     if (nums.length %2 === 0){
-        median = (nums[middle]+ nums[middle -1 ]/2);
+        median = (nums[middle]+ nums[middle -1 ])/2;
     }
     else{
         median = nums[middle];
